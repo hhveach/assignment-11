@@ -13,7 +13,7 @@ var timeFound = 0;
 var big = str.toLowerCase();
 
 for (var i = 0; i < big.length; i++){
-  if (big[i] === big[i +- 1]){
+  if (big[i] === big[i + 1]){
     timeFound += 1;
   }
 }
